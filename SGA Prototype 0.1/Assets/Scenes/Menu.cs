@@ -24,4 +24,9 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("sga prototype 2D");
     }
+
+    public void NextScene(string name)
+    {
+        SceneManager.LoadScene(name);
+    }
 }
